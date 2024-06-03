@@ -1,0 +1,123 @@
+09:37:34 From Ilia Bolotskikh to Starta Institute 36(Direct Message):
+	Доброе утро, Артем. У меня интернет дома упал, сижу с мобильника. Спасибо водафону 😡
+09:57:21 From Starta Institute 36 to Everyone:
+	int i;
+	for(i = 1; i <= 10; i++) {
+	    System.out.print(i + " ");
+	}
+	
+	for(int j = 1; j <= 10; j++) {
+	    System.out.print(j + " ");
+	}
+	System.out.println();
+	System.out.println(i);
+10:01:24 From Starta Institute 36 to Everyone:
+	Загадать случайно 100 целых чисел в диапазоне от -100 до 100.
+	Вычислить процент положительных чисел, процент отрицательных чисел и
+	процент нулей. Вычислить процент чётных чисел и процент нечётных.
+10:33:18 From Ivan Beidel to Everyone:
+	Random random = new Random();	int min = -100;	int max = 100;	int pos = 0;	int neg = 0;	int odd = 0;	int notOdd = 0;	int zero = 0;	for (int i = 0; i < 100; i++) {	    int randomNum = random.nextInt(min, max);	    if ( randomNum < 0) {	        neg++;	    } else if ( randomNum > 0 ){	        pos++;	    }	    else {	        zero++;	    }	    if (randomNum % 2 == 0) {	        notOdd++;	    } else {	        odd++;	    }	}	System.out.println("Позитиных " + pos);	System.out.println("Негативных " + neg);	System.out.println("Четных " + notOdd);	System.out.println("Не чётных " + odd);	System.out.println("Нулевых " + zero);
+10:34:20 From Iryna Pokazachenko to Everyone:
+	Reacted to "Random random = new ..." with 👍
+10:35:57 From Andrii Fandieiev to Everyone:
+	Reacted to "Random random = new ..." with 👍
+10:41:43 From Starta Institute 36 to Everyone:
+	double arr [] = {10.05, 2, 3.11, 4.09, 51};
+	for (int i = 0; i < arr.length; i++) {
+	    System.out.println(i + " - " + arr[i]);
+	}
+	
+	System.out.println();
+	
+	for(double item: arr) {
+	    System.out.print(item + " ");
+	}
+	System.out.println();
+10:51:08 From Iryna Pokazachenko to Everyone:
+	в чатик плиз
+10:51:21 From Starta Institute 36 to Everyone:
+	String [] fruits = {"apple", "lemon", "orange", "kiwi"};
+	        for (int i = 0; i < fruits.length; i++) {
+	//            System.out.println(fruits[i]);
+	            if (Objects.equals(fruits[i], "kiwi")) {
+	                System.out.println("True");
+	            } else {
+	                System.out.println("False");
+	            }
+	        }
+10:56:15 From Iryna Pokazachenko to Everyone:
+	и это в чатик
+10:56:21 From Starta Institute 36 to Everyone:
+	for(String fruit: fruits) {
+	    if (Objects.equals(fruit, "kiwi")) {
+	        System.out.println("We have a kiwi");
+	    } else {
+	        System.out.println("We don't have kiwi");
+	    }
+	}
+10:56:28 From Iryna Pokazachenko to Everyone:
+	Reacted to "for(String fruit: fr..." with 👍
+10:57:51 From Iryna Pokazachenko to Everyone:
+	это как мы в множество моделей телефонов ( например) ищем определенную модель. И пока система не найдет нам необходимую модель не остановиться ???
+10:58:12 From Iryna Pokazachenko to Everyone:
+	+
+11:00:51 From Iryna Pokazachenko to Everyone:
+	на веб сайтах это раздел "поиск" , задал запрос и система дала результат если есть такое
+11:00:53 From Iryna Pokazachenko to Everyone:
+	?
+11:01:01 From Iryna Pokazachenko to Everyone:
+	+
+11:18:56 From Starta Institute 36 to Everyone:
+	//        for(;;) {
+	//            System.out.println("Hello");
+	//        }
+	
+	        for(int i = 0; i >= 0; i++) {
+	            System.out.println("Hello");
+	        }
+11:19:47 From Iryna Pokazachenko to Everyone:
+	а если break то на первом значение остановится
+11:31:48 From Starta Institute 36 to Everyone:
+	// mult table 2 and 3
+	        for (int i = 2; i < 4; i++ ) {
+	            for (int j = 2; j <= 9; j++) {
+	                System.out.println( i + " * " + j + " = " + (i * j));
+	            }
+	            System.out.println();
+	        }
+	    }
+11:33:46 From Andrii Fandieiev to Starta Institute 36(Direct Message):
+	public static void main(String[] args) {	    // mult table 2 and 3	    for (int i = 1; i <= 9; i++ ) {	        for (int j = 2; j <= 9; j++) {	            System.out.println( i + " * " + j + " = " + (i * j));	        }	        System.out.println();	    }	}
+11:33:48 From Marharyta Lykhvar to Starta Institute 36(Direct Message):
+	for (int i = 1; i < 9; i++ ) {	    for (int j = 1; j <= 9; j++) {	        System.out.println( i + " * " + j + " = " + (i * j));	    }	    System.out.println();	}
+11:35:20 From Starta Institute 36 to Everyone:
+	// Ежемесячная стипендия студента составляет N гривен, а расходы на
+	// проживание превышают стипендию и составляют M гривен в месяц. Рост
+	// цен ежемесячно увеличивает расходы на 3%. Составьте программу расчёта
+	// суммы денег, которую необходимо единовременно попросить у родителей,
+	// чтобы можно было прожить учебный год (10 месяцев), используя только
+	// эти деньги и стипендию.
+11:50:19 From Iryna Pokazachenko to Everyone:
+	песня шикарная была))
+12:01:17 From Ilia Bolotskikh to Everyone:
+	Reacted to песня шикарная была)... with "❤️"
+12:06:57 From Iryna Pokazachenko to Everyone:
+	Андрей прям , как истинный Родитель сказал )) Что то многовато )))))
+12:09:00 From Mariia Shirokova to Everyone:
+	Reacted to "Андрей прям , как ис..." with 😂
+12:09:14 From Mariia Shirokova to Everyone:
+	Replying to "Андрей прям , как ис..."
+	
+	😂
+12:16:58 From Andrii Fandieiev to Everyone:
+	Scanner scanner = new Scanner(System.in);	  System.out.println("введите размер стипендии");	  int stipend = scanner.nextInt();	  System.out.println("введите реальный расход в месяц");	int raschod = scanner.nextInt();	  int yDefiz =0;	  int neobchSumm=0;	  if (stipend>=raschod){	      System.out.println("вам повезло");		  } else {	      for (int i = 1; i <= 10; i++) {	          raschod= (raschod+ (raschod) / 100 * 3);	          yDefiz = yDefiz + raschod ;	      }	      neobchSumm = yDefiz- stipend*10;	      System.out.println("необходимо просить сумму " + neobchSumm);	  }
+12:19:02 From Starta Institute 36 to Everyone:
+	// Показать на экране прямоугольник размером MxN, состоящий из
+	// звёздочек. Затем сделать то же самое, но чтоб фигура внутри была
+	// пустая (остаётся только рамка).
+12:40:53 From Andrii Fandieiev to Starta Institute 36(Direct Message):
+	Scanner scanner= new Scanner(System.in);	System.out.println("введите ширину прямоугольника");	int m=scanner.nextInt();	System.out.println("введите высоту прямоугольника");	int n=scanner.nextInt();	for (int i=1; i<=n; i++){	    for (int j=1; j<=m; j++) {	        if ((i == 1 || i == n) || (j == 1 || j == m)) {	            System.out.print("*");	        } else System.out.print(" ");	    }	    System.out.println();	}
+12:45:47 From Mariia Shirokova to Everyone:
+	🫣
+12:54:19 From Marharyta Lykhvar to Everyone:
+	public class Task2 {	    public static void main(String[] args) {	// Показать на экране прямоугольник размером MxN, состоящий из	// звёздочек. Затем сделать то же самое, но чтоб фигура внутри была	// пустая (остаётся только рамка).	        Scanner scanner = new Scanner(System.in);	        System.out.println("Enter m");	        int m = scanner.nextInt();	        System.out.println("Enter n");	        int n = scanner.nextInt();	        for (int i = 0; i < m; i++) {	            for (int j = 0; j < n; j++) {	                if (i == 0 && j <= n - 1 || i == m - 1 && j <= n - 1 || j == 0 && i <= m - 1 || j == n - 1 && i <= m - 1) {	                    System.out.print("*");	                } else {	                    System.out.print(" ");	                }			            }		            System.out.println();	        }		    }	}
